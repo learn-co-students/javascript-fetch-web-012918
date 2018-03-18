@@ -19,7 +19,7 @@ const app = "I don't do much.";
 //   .then(res => res.json())
 //   .then(json => console.log(json));
 
-const token = '650beebc53ed18a07bb0fec22c5b4a897d8a4663'
+const token = ''
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
